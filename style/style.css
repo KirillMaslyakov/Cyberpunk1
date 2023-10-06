@@ -1,0 +1,84 @@
+@font-face{
+    font-family: "Archangelsk";
+    src: url("../fonts/Archangelsk.ttf");
+}
+*{
+padding: 0;
+margin: 0;
+}
+h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+    }
+a{
+    text-decoration: none;
+}
+u1,o1{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+header{
+    background: url("../img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.header-top{
+    padding-top: 20px;
+    padding-bottom: 537px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    display: flex;
+}
+.social>li{
+    margin-right: 40px;
+}
+.social>li:last-child{
+    margin-right: 0;
+}
+.header-bottom{
+    display: flex;
+    justify-content: flex-end;
+}
+.hedeader-info{
+   border-color: F8F200; 
+   padding: 70px;
+   position: relative;
+}
+.hedeader-info{
+    background-color: #F8F200;
+    padding: 70px;
+    background: linear-gradient(135deg, transparent 52px, #F8F200 0) top left,
+    linear-gradient(-45deg, transparent 52px, #F8F200 0) bottom right;
+    block-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.hedeader-info>h1{
+    width: 484px;
+    color: #000;
+    font-family: "Archangelsk";
+    font-size: 62px;
+    font-weight: 400;
+    min-width: 484px;
+    padding-bottom: 25px;
+}
+.hedeader-info>button{
+    color: #F8F200;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 166.667%; 
+    display: inline-flex;
+    padding: 19px 50px;
+    background: #000;
+    cursor: pointer;
+}
