@@ -58,7 +58,7 @@ header{
     padding: 70px;
     background: linear-gradient(135deg, transparent 52px, #F8F200 0) top left,
     linear-gradient(-45deg, transparent 52px, #F8F200 0) bottom right;
-    block-size: 100% 50%;
+    block-size: 100% 51%;
     background-repeat: no-repeat;
 }
 
@@ -81,4 +81,59 @@ header{
     padding: 19px 50px;
     background: #000;
     cursor: pointer;
+}
+.title{
+    padding-top: 70px;
+    color: #000;
+    font-family: "Archangelsk";
+    font-size: 62px;
+    font-weight: 400;
+    padding: 20px;
+}
+.text{
+    color: #777;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 188.9%;
+    min-width: 952px;
+    margin-bottom: 70px;
+}
+.text>span{
+    color: #52BEDC;
+    font-weight: 700;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+}
+.item1{
+    width: 460px;
+}
+.photo1{
+    background: url("../img/photo.png");
+    background-repeat: no-repeat;
+    block-size: cover;
+    height: 196px;
+    margin-bottom: 32px;
+    position: relative;
+    -webkit-clip-path: polygon(20% 0%, 100% 0, 100% 20%, 100% 55%, 80% 100%, 20% 100%, 0 100%, 0 45%);
+    clip-path: polygon(20% 0%, 100% 0, 100% 20%, 100% 55%, 80% 100%, 20% 100%, 0 100%, 0 45%);
+}
+.photo1:last-child{
+    margin-bottom: 0;
+    background: url("../img/photo1.png");
+    background-repeat: no-repeat;
+    block-size: cover;
+}
+.item2{
+    width: 788px;
+    height: 424px;
+}
+.photo2{
+    background: url("../img/photo2png.png");
+    background-repeat: no-repeat;
+    block-size: cover;
+    height: 424px;
 }
