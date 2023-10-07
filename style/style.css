@@ -13,7 +13,7 @@ h1,h2,h3,p{
 a{
     text-decoration: none;
 }
-u1,o1{
+ul,ol{
     padding: 0;
     margin: 0;
     list-style: none;
@@ -58,7 +58,7 @@ header{
     padding: 70px;
     background: linear-gradient(135deg, transparent 52px, #F8F200 0) top left,
     linear-gradient(-45deg, transparent 52px, #F8F200 0) bottom right;
-    block-size: 100% 51%;
+    background-size: 100% 51%;
     background-repeat: no-repeat;
 }
 
