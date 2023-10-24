@@ -137,3 +137,11 @@ header{
     block-size: cover;
     height: 424px;
 }
+.yellow{
+    background: #F8F200;
+    padding: 70px 0;
+}
+.yellow-box{
+    display: flex;
+    justify-content: space-between;
+}
